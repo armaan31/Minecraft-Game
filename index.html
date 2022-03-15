@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minecraft</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="fabric.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<body>
+	<center>
+	<h2 class="btn-primary">MINECRAFT</h2>
+	<div id="head_info" class="btn-danger">
+		<h3>Block Width  = <span id="cw">30 pixels</span></h3>    <!--cw is the id given for the current width-->
+		<h3>Block Height  = <span id="ch">30 pixels</span></h3>  <!--ch is the id given for the current height-->
+	</div>
+	<h5>To control the player, use the arrow keys. Press Shift+p to make a block larger. Press Shift+m to make the block smaller. To make a block, click on of the following keys: w=wall block. g=ground block. r=roof block. t=trunk block. d=dark green block. l=light green block. c=cloud block. y=yellow wall block. u=unique block.</h5>
+	<canvas id="myCanvas" width="1000" height="600"></canvas>
+	</center>
+	<script src="main.js"></script>
+</body>
+</html>
